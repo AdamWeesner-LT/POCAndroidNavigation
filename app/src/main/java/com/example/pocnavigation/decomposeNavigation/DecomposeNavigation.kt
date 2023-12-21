@@ -183,6 +183,7 @@ class DefaultDecomposeNavigation(
 @Composable
 fun DecomposeNavigationRoot(
     navigation: DecomposeNavigation,
+    // these are only exposed to allow for playing with the other nav types, this would not be a thing normally
     firstScreenOnClick: () -> Unit,
     secondScreenOnClick: () -> Unit,
     showDialogClick: () -> Unit,
